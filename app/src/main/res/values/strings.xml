@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Browser</string>
+    <string name="clearImageDescription">Clear</string>
+    <string name="url_hint">Search URL</string>
+</resources>
