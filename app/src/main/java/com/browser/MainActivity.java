@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
+        homeButton = findViewById(R.id.homeId);
         urlInput = findViewById(R.id.url_inputId);
         progressBar = findViewById(R.id.progress_barId);
         webView = findViewById(R.id.webViewId);
@@ -75,6 +76,13 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 }
                 return false;
+            }
+        });
+
+        homeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                webView.goBack();
             }
         });
 
