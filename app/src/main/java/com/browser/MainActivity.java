@@ -26,7 +26,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     EditText urlInput;
-    ImageView clearUrl, webBack, webForward, webRefresh, webShare;
+    ImageView homeButton, clearUrl, webBack, webForward, webRefresh, webShare;
     WebView webView;
     ProgressBar progressBar;
 
