@@ -126,7 +126,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
     }
 
     void loadMyUrl(String url){
@@ -145,7 +144,6 @@ public class MainActivity extends AppCompatActivity {
         }else {
             super.onBackPressed();
         }
-
     }
 
     class MyWebViewClient extends WebViewClient {
